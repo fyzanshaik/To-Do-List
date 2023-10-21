@@ -1,0 +1,99 @@
+/* Reset some default browser styles */
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Style the header */
+/* Style for header partial */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header h2 {
+  font-size: 24px;
+  margin: 0;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Style the h1 */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style the input and button in the header */
+.header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#inputField {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+}
+
+#addButton {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Style the item list */
+#itemList {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+/* Style individual list items */
+#itemList li {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Include partials styling (if needed) */
+/* You can add styling for your partials here */
+/* Style for footer partial */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  font-size: 16px;
+  margin: 0;
+  padding: 5px;
+}
